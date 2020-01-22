@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>League of Champions</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../../css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="../../css/common-1.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:bold|Aladin' rel='stylesheet'>
+    
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>League of Champions</h3>
+                <strong><i class="fas fa-crown" style="color:#927c4b;"></i></strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                       <li>
+                            <a href="index.html" target="_self">League Website</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/league?leagueId=210134" target="_blank">ESPN Homepage</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                
+                <a href="#currentSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        Current Season
+                    </a>
+                    <ul class="collapse list-unstyled" id="currentSubmenu">
+                    <h6>Seasons</h6>
+                    <li>
+                    	<a href="currentSeason.html" target="_self">2020 Season Stats and Roto</a>
+                    </li>
+                    <li class="dropdown-divider"></li>
+                    <h6>Drafts</h6>
+                    <li>
+                        <a href="draft2020.html" target="_self">2020 Draft Results</a>
+                    </li>
+                    </ul>
+                
+                <a href="#historySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        History
+                    </a>
+                    <ul class="collapse list-unstyled" id="historySubmenu">
+                    <h6>Seasons</h6>
+                    <li>
+                    	<a href="StatsRoto.html" target="_self">Stats and Roto</a>
+                    	<a href="playoffs.html" target="_self">Playoffs</a>
+                    </li>
+                    <li class="dropdown-divider"></li>
+                    <h6>Drafts</h6>
+                    <li>
+                        <a href="draft2019.html" target="_self">2019 Draft Results</a>
+                    </li>
+                    </ul>
+                    
+                     <a href="#writeupSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        Write Ups
+                    </a>
+                    <ul class="collapse list-unstyled" id="writeupSubmenu">
+                    <h6>Current Write Ups</h6>
+                    <li>
+                    	<a href="writeup000003.html" target="_self">00/00/03 Write Up</a>
+                    </li>
+                    <li class="dropdown-divider"></li>
+                    <h6>Past Write Ups</h6>
+                    <li>
+                        <a href="writeup000002.html" target="_self">00/00/02 Write Up</a>
+                        <a href="writeup000001.html" target="_self">00/00/01 Write Up</a>
+                    </li>
+                    </ul>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        ESPN Team Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <h6>Hillsiders</h6>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=10" target="_blank">Jonny Ballgame</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=3" target="_blank">Lonzo</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=4" target="_blank">Scrooge MackDuck</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=11" target="_blank">Midpack Maida</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=5" target="_blank">Iceboxers</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=6" target="_blank">Saul</a>
+                        </li>
+                    <li class="dropdown-divider"></li>
+                    <h6>Outsiders</h6>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=8" target="_blank">Commish</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=1" target="_blank">Sloth</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=9" target="_blank">Gaz</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=7" target="_blank">Marty</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=12" target="_blank">Becky</a>
+                        </li>
+                        <li>
+                            <a href="https://fantasy.espn.com/baseball/team?leagueId=210134&seasonId=2019&teamId=13" target="_blank">Juan Mexico</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="members.html" target="_self">
+                        <i class="iconify" data-icon="ion:people-sharp" data-inline="false" data-flip="horizontal"></i>
+                        League Members
+                    </a>
+                </li>
+                <li>
+                    <a href="bylaws.html" target="_self">
+                        <i class="iconify" data-icon="whh:law" data-inline="false"></i>
+                        Bylaws
+                    </a>
+                </li>
+                <li>
+                    <a href="newsfeed.html" target="_self">
+                        <i class="fas fa-paper-plane"></i>
+                        LOC Twitter Newsfeed
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+            
+            <li><a href="https://twitter.com/loc_newsfeed?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @loc_newsfeed</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+            
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Top Navbar -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#211037;color:#f5f5f5;">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="suggestions_form.html" target="_self">Suggestion Form</a>
+                            </li>
+                            <li class="nav-item">
+								<a class="nav-link" href="suggestions_log.html" target="_self">Suggestion Log</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="prop_form.html" target="_self">Prop Bet Form</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="prop_log.html" target="_self">Prop Bet Log</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://twitter.com/LOC_NewsFeed" target="_blank" class="nav-link">
+									<i class="iconify" data-icon="whh:twitter" style="color: #927c4b;" data-width="32" 	data-height="24"></i>
+								</a>
+							</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+<!-- Page Content -->    
+<div class="bylaws">
+	<div class="row">
+	    <div class="col-md-12">
+            
+<br>
+<h1><strong><u>LOC Bylaws</u></strong></h1> 
+<h6><strong>Updated: December 29th, 2018</strong></h6>
+<div class="list-group"> 
+<ul>
+  <li>Buy-In
+  	<ul>
+      <li>$150</li>
+      <li>Due draft weekend before round 1</li>
+    </ul>
+  </li>
+  
+  <li>3 Player Keeper League
+    <ul>
+      <li>Owners must keep 3 players</li>
+      <li>Once keepers are selected, only keepers and picks can be traded up to draft day</li>
+    </ul>
+  </li>
+  
+  <li>Roster Size
+  	<ul>
+      <li>21 players: 17 Starters, 4 Bench
+      	<ul>
+        	<li>C, 1B, 2B, 3B, SS, OF x3, Util x2, SP x5, RP x2, BN x4.</li>
+            <li>2 closers is the max</li>
+            <li>3 DL Spots</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  
+  <li>6x6 Scoring
+    <ul>
+      <li>Hitting: Runs, HR, RBI, SB, AVG, OPS</li>
+      <li>Pitching: Wins, K, QS, SV, Whip, ERA</li>
+      <li>32 Inning Minimum Per Matchup</li>
+    </ul>
+  </li>
+  
+  <li>Weekly Transaction Limit
+    <ul>
+      <li>5 per week</li>
+      <li>5 per playoff matchup</li>
+    </ul>
+  </li>
+  
+  <li>FAAB
+  	<ul>
+      <li>$200 total for the regular season</li>
+      <li>$1 minimum bids</li>
+      <li>FAAB resets at start of playoffs
+      	<ul>
+        	<li>$35 in the playoffs and $23 for shit bowl</li>
+        </ul>	
+      </li>
+      <li>Tiebreaker is inverse order of standings</li>
+    </ul>
+  </li>
+  
+  <li>Regular Season
+    <ul>
+      <li>18 week regular season</li>
+      <li>Play inside your division twice and outside once</li>
+      <li>The final two weeks are against the team that you played last in the previous season’s playoffs and a random draw against non division opponent</li>
+    </ul>
+  </li>
+  
+  <li>Playoffs
+  	<ul>
+      <li>8 Teams make the playoffs
+      	<ul>
+        	<li>Top 3 from each division</li>
+            <li>Final two are the two with the best record</li>
+        </ul>
+      </li>
+      <li>Playoffs are 2 week matchups</li>
+      <li>Division winners receive the top 2 seeds, followed by record</li>
+      <li>Shit bowl is determined by record</li>
+      <li>Playoff Tiebreaker is determined by seed</li>
+    </ul>
+  </li>
+  
+  <li>Draft Order
+    <ul>
+      <li>Playoff Tiebreaker is determined by seed</li>
+      <li>Shit bowl first round losers play for picks 5 and 6</li>
+      <li>Playoff teams that get bounced in the first round play for picks 1, 2, 7 and 8</li>
+    </ul>
+  </li>
+  
+  <li>Payouts
+  	<ul>
+      <li>Division winners and 3rd place: $150. 
+      	<ul>
+        	<li>Teams do not receive this, it just pays for their buy-in next season</li>   
+        </ul>
+      </li>
+      <li>Second place: $450
+      	<ul>
+        	<li>League fee paid for next season leaves a net payout of $300
+            <ul>
+            <li>Exception if player was a division winner, thus already paid $150</li>
+            </ul>
+            </li>
+        </ul>
+      </li>
+      <li>First place: $900
+      	<ul>
+        	<li>League fee paid for next season leaves a net payout of $750
+            <ul>
+            <li>Exception if player was a division winner, thus already paid $150</li>
+            </ul>
+            </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  
+  <li>Iceboxers
+    <ul>
+      <li>If you don’t make the playoffs and lose both rounds of the playoffs, it is mandatory that your team name is Iceboxers the following season with no abbreviations or modifications</li>
+      <li>This is in honor of one founding fathers and staunch republican Dan Snider</li>
+    </ul>
+  </li>
+  
+  <li>Danny Duffy Committee
+    <ul>
+      <li>Commish, Gaz and HB</li>
+      <li>If a player is injured while a trade is pending, the committee will determine if the receiving team of said play can DL the injured player</li>
+    </ul>
+  </li>
+  
+  <li>DL Preseason
+    <ul>
+      <li>As long as the player is drafted, he can be DL’d</li>
+    </ul>
+  </li>
+  
+  <li>Kerry Wood/Scumbag Jason Rule
+    <ul>
+      <li>No players can be added off the waiver wire and DL’d</li>
+    </ul>
+  </li>
+  
+  <li>Name Change Rule
+    <ul>
+      <li>Any name change after opening pitch is a $10 charge to next year’s buy-in</li>
+    </ul>
+  </li>
+  
+  <li>Prop Bets
+    <ul>
+      <li>$5 min/max</li>
+      <li>Can not have duplicate bets</li>
+      <li>Props will be added/subtracted to the following years buy-in</li>
+    </ul>
+  </li>
+  
+  <li>Pre-Season Trading
+  	<ul>
+     <li>Any trade talk outside of indicated times will be considered tampering</li>
+     <li>If owner(s) are found tampering, owners will be subject to large fines, loss of draft pick and/or beatings
+      	<ul>
+        	<li>Punishment will be handed down from the commissioner’s office</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  
+  <li>Sloth Rule
+    <ul>
+      <li>When trades are made, they are processed by ESPN</li>
+      <li>The commish cannot push them though for any reason whatsoever</li>
+      <li>Trades will not be manually entered during the season unless it is a 3 team trade</li>
+      <li>For extended explanation, see June 28, 2015 thread about Gunnaz calling for a witch hunt on commish (I don't think this actually exists anymore)</li>
+    </ul>
+  </li>
+  
+  <li>Waivers
+    <ul>
+      <li>Waivers are Sunday and Wednesday at 10pm Central Time</li>
+    </ul>
+  </li>
+  
+   <li>Reggie Bush Rule
+  	<ul>
+    <li>An owner can drop a player who has a serious injury</li>
+    <li>Drugs, suspension, etc. not allowed</li>
+    <li>Player is frozen on the waiver wire for the rest of the season
+      	<ul>
+        	<li>Said owner is required to keep him the following year</li>
+            <li>Player is not allowed to be traded until after the draft</li>
+        </ul>
+    </li>
+    </ul>
+    </li>
+  
+  <li>Carlos Lee Rule
+  	<ul>
+    <li>A player must play one game for owner to be eligible to be kept, unless he is traded for and deemed nearing return
+      	<ul>
+        	<li>Example would be 15 day DL, rehab assignment, etc.</li>
+            <li>This is up to commish ruling</li>
+            <li>Two Examples:
+            	<ul>
+                <li>2014 Commish trades for Tulo while on rehab assignment and has major setback</li>
+                <li>HB trading for Kershaw after reports of positive outcome after throwing</li>
+                </ul>
+            </li>
+            <li>If a player is deemed “out for the season” he is not eligible to be kept</li>
+            <li>Exemption only applies to traded players 
+            <ul>
+            <li>No players off waiver</li>
+            </ul>
+            </li>
+        </ul>
+      </li>
+    </ul>
+  </li>  
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+      <!-- Footer Section -->
+      <footer class="footer">&copy;2019&nbsp;Not Andy McKinnon</footer>
+</body>
+
+</html>
