@@ -94,7 +94,7 @@ h7 {
   padding-top: 75%;
 }
 
-/* iframe-container {
+/iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
@@ -110,8 +110,8 @@ iframe-container iframe {
 }
  
 /* 4x3 Aspect Ratio */
-/*
-.iframe-container-4x3 {
+
+iframe-container-4x3 {
   padding-top: 75%;
 } */
 
